@@ -52,7 +52,7 @@ cd webinars && npm i && npm start
   
 ## Third: Webinar list
 * 1.Webinar ------------------------------------------------✅ [code](https://github.com/jubi33717f/webinars/blob/master/src/Pages/Home/WebinarSelection/index.tsx)
-    - webinar prosperities:                                  ✔️
+    - webinar prosperities                                  ✔️
         □ id                                                       
         □ created_at                                                
         □ title                                                    
