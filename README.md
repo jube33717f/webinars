@@ -74,9 +74,9 @@ cd webinars && npm i && npm start
 [view] bottom
 * 1.topic dropdown-------------------------------------------✅[code]()
     -  click any place to close the drop down list           ✔️
-* 2.verification---------------------------------------------✅[code]()
+* 2.verification-----------------------------------------------✅[code]()
     - first name/ last name/ email required                  ✔️
-* 3.click the register button until pass all verification----✅[code]()
+* 3.click the register button until pass all verification--------✅[code]()
     - trigger register action                                ✔️
 * 4.YouTube video--------------------------------------------✅[code]()
 
