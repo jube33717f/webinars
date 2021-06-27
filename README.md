@@ -11,7 +11,7 @@
 >
 > Description: Webinar page - coding test
 >
-> Link on [here]()
+
 
 # Installation
 To run the app, run these commands in terminal windows from the root:
