@@ -1,3 +1,10 @@
+<h1 align="center">
+  webinars
+  <br>
+  <img src="https://img.onl/9T2MYo" alt="stock info logo" width="70">
+  <br>
+</h1>
+<p align="center" style="font-size: 1.2rem;">Webinar page - coding test </p>
 
 > Author: Jubi
 > 
@@ -13,6 +20,7 @@ To run the app, run these commands in terminal windows from the root:
 ```bash
 cd webinars && npm i && npm start
 ```
+
 # Tech/framework used
 * React JS
 * Typescript
@@ -76,17 +84,17 @@ cd webinars && npm i && npm start
 
 # View
 ## Desktop view
-![Home](https://imgur.com/m4u5muF)
-![Home](https://imgur.com/ZAycF8h)
-![Home](https://imgur.com/7eh7Uyy)
-![Login](https://imgur.com/g5WLUUy)
-![Detail](https://imgur.com/yhI7IOw)
+- ![Home](https://imgur.com/m4u5muF.jpg)
+- ![Home](https://imgur.com/ZAycF8h.jpg)
+- ![Home](https://imgur.com/7eh7Uyy.jpg)
+- ![Login](https://imgur.com/g5WLUUy.jpg)
+- ![Detail](https://imgur.com/yhI7IOw.jpg)
 ## Phone view
-![Home](https://i.ibb.co/vJQnj7Q/phone1.jpg)
-![Home](https://i.ibb.co/PrvcQ26/phone3.jpg)
-![Home](https://i.ibb.co/hRbP5hF/phone4.jpg)
-![Login](https://i.ibb.co/VDGxjqF/phone2.jpg)
-![Detail](https://i.ibb.co/GxwjTY7/phone5.jpg)
+- ![Home](https://i.ibb.co/vJQnj7Q/phone1.jpg)
+- ![Home](https://i.ibb.co/PrvcQ26/phone3.jpg)
+- ![Home](https://i.ibb.co/hRbP5hF/phone4.jpg)
+- ![Login](https://i.ibb.co/VDGxjqF/phone2.jpg)
+- ![Detail](https://i.ibb.co/GxwjTY7/phone5.jpg)
 
 # Roadmap
 ```
