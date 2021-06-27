@@ -1,0 +1,120 @@
+.registerWrapper{
+    width:80%;
+    margin:auto;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 2px 2px 20px rgba(18, 0, 59, .12), 0 -1px 5px rgba(18, 0, 59,.04);
+    border-radius: 20px;
+    background-color: #ffffff;
+    padding:80px 10% 100px 10% ;
+    margin-bottom:50px;
+}
+.header{
+    width:60%;
+    margin:auto;
+    text-align: center;
+    padding-bottom: 20px;
+    
+    h2{
+        font-size:22px;
+        line-height:30px;
+        font-weight: 500;
+        color:#01254F;
+    }
+    p{
+        font-size:16px;
+        line-height:24px;
+        font-weight: 400;
+    }
+}
+.registerForm{
+    width:80%;
+    margin:auto;
+    &Button{
+        cursor: pointer;
+        position: absolute;
+        right: 0;
+        transform: translateY(-25px);
+        color: #617280; 
+        font-size: 0;
+        border: 0;
+        cursor: pointer;
+        background: transparent  !important;
+        width: 3rem!important;
+        outline: none;
+        border:none!important;
+        
+    }
+    div{
+        position: relative;
+        label{
+            display: block;
+            font-size:16px;
+            line-height:22.4px;
+            padding:18px 0 8px 0;
+            span{
+                color:red;
+            }
+    
+        }
+        input{
+            width:100%;
+            border-radius: 4px;
+            height:36px;
+            border:1px solid #C6C6C6 ;
+            background:none;  
+            outline:none;  
+           
+        }
+    }
+    .phoneInput{
+        padding:0;
+        margin:0;
+        display:flex;
+        input:nth-child(1){
+            width:60px;
+            margin-right:20px;
+        } 
+        input:nth-child(2){
+            width:100%;
+        } 
+        button{
+            
+            background:transparent;
+            border:1px solid #C6C6C6 ;
+            margin-right:20px;
+            border-radius: 4px;
+           
+        }
+    }
+}
+.submitButton{
+    width:100%;
+    border-radius: 4px;
+    height:48px;
+    outline:none;  
+    border:none;
+    margin-top:35px;
+    background-color:#003476 ;
+    color:white;
+    &:disabled{
+        color:black;
+        background-color:#E9E9E9;  
+    }
+}
+.dropdownWrapper{
+    position:relative;
+    overflow:visible;
+    height:0px;
+}
+@media(max-width:768px){
+    .registerWrapper{
+        width:100%;
+        box-shadow:none;
+        padding:20px 5px 80px 5px ;
+    }
+    .header{
+        width:80%;
+    }
+}

@@ -1,0 +1,183 @@
+.nav{
+    position: fixed;
+    top: 0;
+    left:0;
+    z-index: 1000;
+    align-items: center;
+    box-shadow: 0 -2px 6px #000;
+    background-color: #ffffff;
+    height: 96px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 2.5fr 5fr 2.5fr;
+    font-weight: 300;
+    &Logo{
+        box-sizing: border-box;
+        flex-grow: 0;
+        flex-basis: auto;
+        max-width: none;
+        margin-left: 3rem;
+        font-weight: 700;
+        // font-size: var(--font-size-12);
+        
+        img{
+            height:45px;
+            width:99px;
+        }
+
+       
+    }
+    &Content{
+        box-sizing: border-box;
+        flex-grow: 1;
+        flex-basis: auto;
+        max-width: 100%;
+        flex: 1 1;
+        justify-content: center;
+        nav{
+            flex: 1 1 1 1 1;
+            justify-content: center;
+            display: grid;
+            grid-auto-flow: column;
+            grid-gap: 55px;
+            a{
+                position: relative;
+                color: black;
+                display: inline-flex;
+                align-items: center;
+                // font-size: var(--font-size-10);
+                cursor: pointer;
+            }
+        }
+    }
+    &Buttons{
+        justify-self: flex-end;
+        box-sizing: border-box;
+        flex-wrap: wrap;
+        flex-grow: 0;
+        flex-basis: auto;
+        max-width: none;
+        margin-right: 5%;
+        button{
+            margin: 10px;
+            border-radius: 3px;
+            padding: 10px 32px;
+            // font-size: var(--font-size-10);
+            position: relative;
+            line-height: 1;
+            height: 38px;
+            cursor: pointer;
+            color:#ffffff;
+            border: 1px solid #003476;
+            background-color:#003476 ;
+            &:nth-child(1){
+                color:#003476;
+                background-color:transparent
+            }
+        }
+    }
+    @media (max-width:1130px){
+        display:none;
+    }
+}
+.navFold{
+    position: fixed;
+    top: 0;
+    left:0;
+    z-index: 1000;
+    align-items: center;
+    box-shadow: 0 -2px 6px #000;
+    background-color: #ffffff;
+    height: 96px;
+    width: 100%;
+    font-weight: 300;
+    section{
+        height:35px;
+        width:100vw;
+        border-bottom: 1px solid #C6C6C6;
+        padding-top:13px;
+        
+        .left{
+            float:left;
+            margin-left:20px;
+            display: inline-flex;
+            position: relative;
+        }
+        .right{
+            float:right;
+            margin-right:20px;
+            button{
+                margin-top:-3px;
+                width:100px;
+                border-radius: 3px;
+                font-size: 13px;
+                position: relative;
+                line-height: 9px;
+                height: 30px;
+                cursor: pointer;
+                border: 1px solid #003476;
+                color:#003476;
+                background-color:transparent;
+              
+            }
+            .button2{
+                
+                color:#ffffff;
+                background-color:#003476 ;
+            }
+        }
+    }
+    &Logo{
+        img{
+            height:30px;
+            width:66px;
+        } 
+        margin-right:10px;
+    }
+    @media(min-width:1131px){
+        display:none;
+    }
+}
+.navUnfold{
+    margin-top:-2px;
+    opacity: 1;
+    z-index:1000;   
+    transform: none;
+    min-width: 120px;
+    transition: opacity 267ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, transform 178ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    transform-origin: 0px 32px;
+    outline:0;
+    position:absolute;
+    overflow-x:hidden;
+    flex: 1 1;
+    display: flex;
+    overflow: auto;
+    flex-direction: column;
+    width:100%;
+    background:#ffffff;
+    border-radius:4px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    box-shadow: 0px 2px 2px -3px rgba(0, 0, 0, .1), 0px 8px 10px 1px rgba(0, 0, 0, .1), 0px 3px 3px 2px rgba(0, 0, 0, .12);
+    nav{
+        width:100%;
+        a{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 48px;
+            border-bottom: 1px solid #f2f2f2;
+            z-index: 10;
+            padding:0 10px 0 10px;
+            &:hover{
+                background-color: #EEEEEE;
+            }
+        }
+        
+    }
+}
+.others{
+    padding:40px;
+    text-align: center;
+    font-weight: 500;
+}

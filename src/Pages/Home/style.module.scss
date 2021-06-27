@@ -1,0 +1,17 @@
+.header{
+    position:relative;
+    padding: 3rem 0 3rem 0;
+    &Content{       
+        text-align: center;
+        margin:auto;
+        width:50%;
+        h1{
+            line-height:3rem;
+            font-weight: 500;
+        }
+        p{
+            font-weight: 400;
+        }
+    }
+
+}

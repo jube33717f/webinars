@@ -1,0 +1,129 @@
+
+.post{
+    width: 100%;
+    margin: auto;
+    line-height: 1.5;
+    cursor:default;
+    section{
+        border-radius: 4px;
+        margin-top: 2vh;
+
+        background-color:#fff;
+        padding: 32px;
+        box-shadow: 2px 2px 20px rgba(18, 0, 59, .12), 0 -1px 5px rgba(18, 0, 59,.04);
+      
+        margin-left: 5%;
+        margin-right:5%;
+        min-height:75vh;
+    }
+    
+    &Container{
+        margin-top: 0;
+  
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            margin-top: 2.5rem;
+            display:block;
+            
+        }
+        h2{
+            font-size: 30px;
+            font-weight: 700;
+            word-break: break-word;
+        }
+        hr {
+            margin: 5rem 0;
+          }
+          img{
+              max-width:500px;
+              
+          }
+          ul,
+          ol {
+            list-style: square;
+            > li + li {
+              margin-top: 1rem;
+            }
+          }
+         
+          h5{
+              font-size:19px;
+          }
+    }
+}
+.infoBox{
+    display: flex;
+    align-items: center; 
+}
+.avatar{
+    img{
+        display: block;
+        border-radius: 50%;
+        border: 1px solid #eee;
+        min-width: 50px;
+        min-height: 50px;
+        width: 50px;
+        height: 50px;
+    }
+}
+.info{
+    margin-left: 8px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 6px;
+    span{
+        font-size: 16px;
+        font-weight: 500;
+        margin-right: 8px;
+    }
+    time{
+        color: #969696;
+    }
+}
+.content{
+    margin-top:50px;
+}
+.favourite{
+    display:flex;
+    margin-top:50px;
+    color:#969696;
+    .icon{
+        width:30px;
+        height:30px;
+        line-height:30px;
+        text-align:center;
+        border-radius: 50%;
+        border: 1px solid #eee;
+        cursor:pointer; 
+
+    }
+    span{
+        padding-left:10px;
+        line-height:30px;
+        
+    }
+}
+.like{
+    color:  #E8979A;    
+}
+@media (max-width:1130px){
+    .post{
+        overflow-x: hidden;
+        section{
+            box-shadow:none;
+        }
+        
+    }
+}
+@media(max-width:575px){
+    .info{
+        display: block;
+        time{
+            display:block;
+        }
+    }
+}

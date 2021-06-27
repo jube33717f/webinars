@@ -1,0 +1,66 @@
+.alistair{
+    padding: 80px 10% 80px 10% ;
+    display:flex;
+    flex-wrap:wrap;
+    :nth-child(2){
+        display: table;
+    }
+    &Content{
+        width:50%;
+        &Text{
+            width:80%;
+            white-space: pre-wrap;
+            
+            h2{
+                font-size:22px;
+                line-height:30px;
+                font-weight: 500;
+                color:#01254F;
+            }
+            p{
+                font-size:16px;
+                line-height:24px;
+                text-align: justify;
+                font-weight: 400;
+    
+            }
+            .more{
+                margin-top:20px;
+            }
+        }
+        .videoWrapper{
+            margin-top:30px;
+            margin:auto;
+            display:table-cell;
+            vertical-align: middle;
+            width: 100%;
+            aspect-ratio: 853/480;
+            .video{
+                
+                overflow: hidden;
+                padding-bottom: 56.25%;
+                position: relative;
+                
+                
+                
+                iframe{
+                    left: 0;
+                    top: 0;
+                    height: 100%;
+                    width: 100%;               
+                    position: absolute;
+                    
+                }
+            }
+            
+        }
+    }
+}
+@media(max-width:768px){
+    .alistairContent{
+        width:100%;
+        &Text{
+            width:100%;
+        }
+    }
+}

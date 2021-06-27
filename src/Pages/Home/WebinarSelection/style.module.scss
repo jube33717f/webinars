@@ -1,0 +1,120 @@
+.webinar{
+    background-color: #F2F2F2;
+    
+    padding: 50px calc(50% - 635px) 50px calc(50% - 635px) ;
+    min-height:90vh;
+    @media(max-width:768px){
+        padding: 50px calc(50% - 635px) 0 calc(50% - 635px) ;
+        min-height:70vh;
+        
+    }
+    @media(min-width:450px)and (max-width:575px){
+        min-height:60vh;
+    }
+    &Content{
+        overflow-x: scroll;
+        display:flex;
+        margin:auto;
+        flex-flow: column wrap;
+        max-height:680px;
+        height:100%;
+        @media(max-width:575px){
+            overflow-x: none;
+            overflow-y: scroll;
+            flex-flow: column;
+    
+        }
+        
+    }
+    
+}
+.cardContent{
+    padding:20px;
+    position:relative;
+    height:100%;
+    .date{
+        font-weight:600;
+        font-size:14px;
+        line-height: 15px;
+        color:#01254F;
+
+    }
+    .title{
+        margin-top: -5px;
+        margin-bottom: 5px;
+        height:60px;
+        overflow:hidden;
+        h3{
+            font-weight:600;
+            font-size:16px;
+            line-height: 24px;
+            color:#01254F;
+            
+        }
+        @media(max-width:400px){
+            height:45px;
+            overflow:hidden;
+            h3{
+                font-size:14px;
+                line-height:20px;
+                text-overflow: ellipsis;
+            }
+        }
+    }
+    
+    p{
+        font-weight:400;
+        font-size:14px;
+        line-height: 20px;
+        color:rgba(0,0,0,.65)
+        
+    }
+    @media(max-width:400px){  
+        
+        p{
+            font-size:13px;
+            line-height:18px;
+        }
+    }
+    .content{
+        width:95%;
+        height:82px;
+        text-overflow: ellipsis;
+        text-align: justify;
+        overflow: hidden;
+        white-space: normal;
+        p{
+            padding:0;
+            margin:0;
+        }
+        @media(max-width:400px){
+            height:53px; 
+        }
+    }
+    .register{
+        color:#6BB718;
+        font-weight:600;
+        font-size:16px;
+        line-height: 24px;
+        display:flex;
+        position: absolute;
+        bottom:19%;
+        width:100%;
+        span{
+            cursor: pointer;
+        }
+        .registerButton{
+            border:1px solid #6BB718;
+            border-radius: 50%;
+            line-height:20px;
+            text-align: center;
+            width:20px;
+            height:20px;
+            position:absolute;
+            right:19%;
+            cursor: pointer;
+        }
+
+    }
+
+}
