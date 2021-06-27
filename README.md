@@ -38,14 +38,14 @@ cd webinars && npm i && npm start
 ## Second: Header
 [code]()
 * 1.add logout button----------------------✅
-* 2.login functionality--------------------✅[view]() [code]() 
+* 2.login functionality----------------------✅[view]() [code]() 
     - login page / form                    ✔️ 
     - dispatch login action                ✔️ 
     - save user info on redux              ✔️ 
-* 3.logout functionality-------------------✅[code]()
+* 3.logout functionality---------------------✅[code]()
     - dispatch logout action               ✔️ 
     - clean cookies/redux                  ✔️ 
-* 4.login check----------------------------✅[code]()
+* 4.login check------------------------------✅[code]()
     - save token in cookie                 ✔️ 
     - save user info in redux              ✔️ 
     - validate cookie token when reopen    ✔️ 
