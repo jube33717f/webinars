@@ -30,7 +30,7 @@ const Navigation = ()=>{
     const [showAlert, setShowAlert] = useState<boolean>(false)
 
     useEffect(()=>{
-            setRefresh(!user.auth)
+        setRefresh(!user.auth)
     },[user.auth])
     /* <------------------------------------ **** HOOKS END **** ------------------------------------ */
 

@@ -1,4 +1,6 @@
 /* <------------------------------------ **** IMPORT START **** ------------------------------------ */
+/*** dependency import ***/
+import { memo } from 'react'
 /*** styles import ***/
 import style from './style.module.scss'
 /* <------------------------------------ **** IMPORT END **** ------------------------------------ */
@@ -27,4 +29,4 @@ const Alert = (props:propsInterface)=>{
     </div>
 }
 /* <------------------------------------ **** FUNCTION COMPONENT END **** ------------------------------------ */
-export default Alert;
+export default memo(Alert);

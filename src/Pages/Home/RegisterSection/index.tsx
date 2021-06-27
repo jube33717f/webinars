@@ -1,5 +1,5 @@
 /* <------------------------------------ **** IMPORT START **** ------------------------------------ */
-import React,{useState} from 'react';
+import React,{useState,memo} from 'react';
 import { useSelector } from 'react-redux';
 import cookie from"react-cookies";
 import { useHistory } from "react-router-dom";
@@ -185,4 +185,4 @@ const RegisterSection = (props:propsInterface)=>{
     </>
 }
 /* <------------------------------------ **** FUNCTION COMPONENT END **** ------------------------------------ */
-export default RegisterSection;
+export default memo(RegisterSection);

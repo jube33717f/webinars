@@ -1,6 +1,6 @@
 /* <------------------------------------ **** DEPENDENCE IMPORT START **** ------------------------------------ */
 /*** dependence import */
-import React,{useState, useEffect, useRef, useCallback} from 'react'
+import React,{useState, useEffect, useRef, useCallback,memo} from 'react'
 import { useHistory } from "react-router-dom";
 /*** styles import */
 import style from './style.module.scss'
@@ -84,4 +84,4 @@ const WebinarSection = (props:propsInterface)=>{
     </section>
 }
 /* <------------------------------------ **** FUNCTION COMPONENT END **** ------------------------------------ */
-export default WebinarSection;
+export default memo(WebinarSection);
