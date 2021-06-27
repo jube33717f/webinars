@@ -56,7 +56,6 @@
         <div>
         <div>
                 <div className={style.loadingPageWrapper}>
-                    <div className={style.loadingPageTitle}>STOCK INFO</div>
                     <div className={style.loadingAnimation}>
                         <div className={style.cubeGrid}>
                             <div className={style.loadingCube1} />
