@@ -1,7 +1,6 @@
 <h1 align="center">
   webinars
   <br>
-  <img src="https://img.onl/9T2MYo" alt="stock info logo" width="70">
   <br>
 </h1>
 <p align="center" style="font-size: 1.2rem;">Webinar page - coding test </p>
@@ -36,24 +35,23 @@ cd webinars && npm i && npm start
 * 6.typescript                         ✅ 
   
 ## Second: Header
-[code]()
+[code](https://github.com/jubi33717f/webinars/blob/master/src/Components/Navigation/index.tsx)
 * 1.add logout button----------------------✅
-* 2.login functionality----------------------✅[view]() [code]() 
+* 2.login functionality----------------------✅ [code](https://github.com/jubi33717f/webinars/blob/master/src/Pages/Login/index.tsx) 
     - login page / form                    ✔️ 
     - dispatch login action                ✔️ 
     - save user info on redux              ✔️ 
-* 3.logout functionality---------------------✅[code]()
+* 3.logout functionality---------------------✅ [code](https://github.com/jubi33717f/webinars/blob/master/src/Components/Navigation/index.tsx)
     - dispatch logout action               ✔️ 
     - clean cookies/redux                  ✔️ 
-* 4.login check-----------------------------✅[code]()
+* 4.login check-----------------------------✅ [code](https://github.com/jubi33717f/webinars/blob/master/src/Route/index.tsx)
     - save token in cookie                 ✔️ 
     - save user info in redux              ✔️ 
     - validate cookie token when reopen    ✔️ 
-* 5.Header is appeared on every page-------✅[view]()
+* 5.Header is appeared on every page-------✅ [code](https://github.com/jubi33717f/webinars/blob/master/src/Container/index.tsx)
   
 ## Third: Webinar list
-[view]() middle
-* 1.Webinar ------------------------------------------------✅[code]()
+* 1.Webinar ------------------------------------------------✅ [code](https://github.com/jubi33717f/webinars/blob/master/src/Pages/Home/WebinarSelection/index.tsx)
     - webinar prosperities:                                  ✔️
         □ id                                                       
         □ created_at                                                
@@ -65,20 +63,20 @@ cd webinars && npm i && npm start
     - save webinar list in redux store                       ✔️
     - only show unregistered courses                         ✔️
     - click register scroll down to the register form part   ✔️  
-* 2.click button go to detail page---------------------------✅[code]()
+* 2.click button go to detail page---------------------------✅ [code](https://github.com/jubi33717f/webinars/blob/master/src/Pages/Post/index.tsx)
     - ❗️: cannot refresh as using the data from redux store (no specific api)
-* 3.registered course link-----------------------------------✅[code]() [view]()
+* 3.registered course link-----------------------------------✅ [code](https://github.com/jubi33717f/webinars/blob/master/src/Pages/Favourite/index.tsx)
     -  unregister functionality                              ✔️ 
 
 ## Fourth: Register form
 [view] bottom
-* 1.topic dropdown-------------------------------------------✅[code]()
+* 1.topic dropdown-------------------------------------------✅ [code](https://github.com/jubi33717f/webinars/blob/master/src/Components/Dropdown/index.tsx)
     -  click any place to close the drop down list           ✔️
-* 2.verification-----------------------------------------------✅[code]()
+* 2.verification-----------------------------------------------✅ [code](https://github.com/jubi33717f/webinars/blob/master/src/Pages/Home/RegisterSection/index.tsx)
     - first name/ last name/ email required                  ✔️
-* 3.click the register button until pass all verification----------✅[code]()
+* 3.click the register button until pass all verification----------✅ [code](https://github.com/jubi33717f/webinars/blob/master/src/Pages/Home/RegisterSection/index.tsx)
     - trigger register action                                ✔️
-* 4.YouTube video--------------------------------------------✅[code]()
+* 4.YouTube video--------------------------------------------✅ [code](https://github.com/jubi33717f/webinars/blob/master/src/Pages/Home/AlistairSection/index.tsx)
 
 
 
@@ -89,6 +87,7 @@ cd webinars && npm i && npm start
 - ![Home](https://imgur.com/7eh7Uyy.jpg)
 - ![Login](https://imgur.com/g5WLUUy.jpg)
 - ![Detail](https://imgur.com/yhI7IOw.jpg)
+
 ## Phone view
 - ![Home](https://i.ibb.co/vJQnj7Q/phone1.jpg)
 - ![Home](https://i.ibb.co/PrvcQ26/phone3.jpg)
