@@ -48,7 +48,6 @@ const FavouritePage = ()=>{
     const fetchFavourite =async ()=>{
         try{
             const res = await getFavouritePostList()
-            console.log(res.data)
             if(res.status === 200){
                 let result= res.data.data.map((post:any)=>{
                     return{
@@ -88,7 +87,6 @@ const FavouritePage = ()=>{
             <p>{formattedDate}</p>
             <div className={style.register}>
                 <span onClick={()=>{
-                    console.log(i.id)
                     unregisterAPost(i.id)
                 }}>Unregister</span>
                 <div className={style.registerButton}>

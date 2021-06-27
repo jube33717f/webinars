@@ -29,14 +29,13 @@
         }
     },[])
     /* <------------------------------------ **** HOOKS END **** ------------------------------------ */
-    
+
     /* <------------------------------------ **** FUNCTION START **** ------------------------------------ */
     /*** check cookie if user has been logged in ***/
     const checkUserLoginStatus = async()=>{
         try{
             const req = await checkUser()
             if(req.status === 200) {
-                console.log(req.data)
                 dispatch(loadUserSucceed(
                     req.data.user.username,
                     req.data.user.email,

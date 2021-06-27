@@ -10,7 +10,6 @@ const sagaMiddleware = createSagaMiddleware();
 // apply saga middle ware and reducer
 
 const store = createStore(rootReducer, composeWithDevTools(applyMiddleware(sagaMiddleware)));
-console.log(store.getState())
 //import the root saga and run this saga
 sagaMiddleware.run(rootSaga);
 

@@ -8,6 +8,6 @@ export default function* rootSaga(): Generator {
         );
     } catch (err) {
         // This is where error monitoring should go
-        console.log('error caught in rootsaga::', err);
+        console.error('error caught in rootsaga::', err);
     }
 }
