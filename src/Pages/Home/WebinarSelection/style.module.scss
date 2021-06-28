@@ -2,14 +2,10 @@
     background-color: #F2F2F2;
     
     padding: 50px calc(50% - 635px) 50px calc(50% - 635px) ;
-    min-height:90vh;
-    @media(max-width:768px){
-        padding: 50px calc(50% - 635px) 0 calc(50% - 635px) ;
-        min-height:70vh;
-        
-    }
-    @media(min-width:450px)and (max-width:575px){
-        min-height:60vh;
+    height:680px;
+    @media(max-width:400px){
+        padding: 50px calc(50% - 635px) 50px calc(50% - 635px) ;
+        height:600px
     }
     &Content{
         overflow-x: scroll;

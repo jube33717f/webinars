@@ -1,23 +1,22 @@
 .webinar{
     background-color: #F2F2F2;
-    
+   
     padding: 40px calc(50% - 635px) 20px calc(50% - 635px) ;
-    min-height:90vh;
-    @media(max-width:768px){
+    height:680px;
+    @media(max-width:400px){
         padding: 50px calc(50% - 635px) 0 calc(50% - 635px) ;
-        min-height:70vh;
+        // min-height:70vh;
         
     }
-    @media(min-width:450px)and (max-width:575px){
-        min-height:60vh;
-    }
+    // @media(min-width:450px)and (max-width:575px){
+    //     min-height:60vh;
+    // }
     
     &Content{
         overflow-x: scroll;
         display:flex;
         margin:auto;
         flex-flow: column wrap;
-        max-height:680px;
         height:100%;
         @media(max-width:575px){
             overflow-x: none;

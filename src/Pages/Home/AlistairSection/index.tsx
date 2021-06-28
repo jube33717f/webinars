@@ -1,5 +1,4 @@
 /* <------------------------------------ **** IMPORT START **** ------------------------------------ */
-import { useEffect } from 'react';
 /*** styles import ***/
 import style from './style.module.scss'
 /* <------------------------------------ **** IMPORT END **** ------------------------------------ */
@@ -28,7 +27,7 @@ At the core of Alistair’s teachings is the ability to help each trader uncover
                 <iframe
                     width="853"
                     height="480"
-                    src={`https://www.youtube.com/embed/rODU4LVsrS0`}
+                    src={`https://www.youtube-nocookie.com/embed/rODU4LVsrS0`}
                     frameBorder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowFullScreen
