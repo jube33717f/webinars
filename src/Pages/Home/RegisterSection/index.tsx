@@ -86,7 +86,7 @@ const RegisterSection = (props:propsInterface)=>{
                 }
             }
         }else{
-            history.replace('/login')
+            history.push('/login')
         }
         
     }

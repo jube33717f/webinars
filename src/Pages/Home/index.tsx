@@ -21,7 +21,7 @@ const HomePage = ():JSX.Element=>{
 
     const [showDropdown, setShowDropdown] = useState<boolean>(false)
     /* <------------------------------------ **** HOOKS END **** ------------------------------------ */
-    
+
     /* <------------------------------------ **** FUNCTION START **** ------------------------------------ */
     /*** open topic dropdown ***/
     const openDropdown = (event:React.MouseEvent)=>{
@@ -39,7 +39,7 @@ const HomePage = ():JSX.Element=>{
         if (cookie.load('userId')&&myRef.current) {
             window.scrollTo(0, myRef.current.offsetTop || 0)
         }else{
-            history.replace('/login')
+            history.push('/login')
         }
     }
     /* <------------------------------------ **** FUNCTION END **** ------------------------------------ */

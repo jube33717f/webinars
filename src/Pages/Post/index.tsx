@@ -26,7 +26,7 @@ const PostPage = ()=>{
     const [success, setSuccess] = useState<boolean>(true)
     const [showAlert, setShowAlert] = useState<boolean>(false)
     /* <------------------------------------ **** HOOKS END **** ------------------------------------ */
-    
+
     /* <------------------------------------ **** FUNCTION START **** ------------------------------------ */
     /*** close alert***/
     const closeHandler = ()=>{
@@ -48,7 +48,7 @@ const PostPage = ()=>{
                 setShowAlert(true)
             }
         }else{
-            history.replace('/login')
+            history.push('/login')
         }
     }
     /* <------------------------------------ **** FUNCTION END **** ------------------------------------ */
