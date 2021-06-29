@@ -66,7 +66,7 @@ const WebinarSection = (props:propsInterface)=>{
                     <div 
                     className={style.registerButton}
                     onClick={()=>{
-                        history.replace(`/webinar/${i.id}`)
+                        history.push(`/webinar/${i.id}`)
                     }}
                     >
                         {`>`}
